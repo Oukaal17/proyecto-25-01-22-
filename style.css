@@ -1,4 +1,34 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: #010016 ;
+    overflow-x: hidden;
+}
+@font-face {
+    font-family: RobotoRegular;
+    src: url("../25-01-22/fonts/roboto/Roboto-Regular.ttf");
+}
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+}
+ul{
+    display: inline-flex;
+    list-style: none;
+    justify-content: space-evenly;
+    font-family: RobotoRegular;
+    color: white;
+    margin-top: 30px;
+    margin-right: 6%;
+}
+li{
+    display: flex;
+    position: relative;
+    margin: 10px;
+}
+.Signup{
+    color: #10724C;
 }
