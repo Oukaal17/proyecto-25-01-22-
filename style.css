@@ -3,10 +3,11 @@
     padding: 0;
     background-color: #010016 ;
     overflow-x: hidden;
+    font-family: Roboto;
 }
 @font-face {
-    font-family: RobotoRegular;
-    src: url("../25-01-22/fonts/roboto/Roboto-Regular.ttf");
+    font-family: Roboto;
+    src: url("../fonts/roboto/Roboto-Regular.ttf");
 }
 header{
     display: flex;
@@ -16,18 +17,20 @@ header{
     --background-color: yellow;
 }
 .logo{
-    margin-left: 10%;
-    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 10px;
+    margin-top: 40px;
     margin-bottom: 20px;
 }
 ul{
     display: inline-flex;
     list-style: none;
     justify-content: space-evenly;
-    font-family: RobotoRegular;
     color: white;
     margin-top: 30px;
-    margin-right: 6%;
+    margin-right: 4%;
+    color: white;
+
 }
 li{
     display: flex;
@@ -36,4 +39,23 @@ li{
 }
 .Signup{
     color: #10724C;
+}
+section{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    color: white;
+}
+h1{
+    font-size: 4rem;
+}
+h4{
+    font-size: 0.8rem;
+}
+.MusicEvery{
+    margin: 40px auto;
+    --background-color: tomato;
+}
+button{
+    color: white;
 }
