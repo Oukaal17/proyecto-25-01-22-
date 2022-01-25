@@ -76,3 +76,7 @@ h4{
 button{
     color: white;
 }
+.Premium{
+    display: flex;
+    flex-direction: column;
+}
