@@ -12,11 +12,10 @@
 }
 @font-face {
     font-family: Roboto;
-    src: url("../fonts/roboto/Roboto-Regular.ttf");
+    src: url("fonts/roboto/Roboto-Regular.ttf");
 }
-header{
-    display: flex;
-    width: 100%;
+header  {         display:flex;
+      width: 100%;
     justify-content: space-between;
     align-items: center;
     --background-color: yellow;
@@ -48,6 +47,7 @@ li{
     cursor: pointer;
 }
 .liPremium:hover{
+    color:cyan ;
     font-weight: bold;
     margin: 0 10px;
 }
