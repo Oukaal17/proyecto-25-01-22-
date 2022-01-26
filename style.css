@@ -101,12 +101,13 @@ h4{
     border-style: none;
     height: 30px;
     background-color: #00F482;
+    transition: 500ms ease;
 }
 .Hitthe:hover{
     width: 40%;
     height: 20%;
     background-color: darkred;
-    transition: 500ms ease;
+    
 }
 button{
     color: white;
