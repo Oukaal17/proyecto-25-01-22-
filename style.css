@@ -45,12 +45,16 @@ li{
     display: flex;
     position: relative;
     margin: 8px;
+    cursor: pointer;
 }
-.liPremium{
-
+.liPremium:hover{
+    font-weight: bold;
+    margin: 0 10px;
 }
-.liHelp{
-    
+.liHelp:hover{
+    color:darkorange;
+    font-weight: bold;
+    margin: 0 10px;
 }
 .liDownload:hover{
     color:red;
@@ -58,6 +62,12 @@ li{
 .liLog{
     color: cornflowerblue;
     
+    font-weight: bold;
+    margin: 0 10px;
+}
+.liLog:hover{
+    font-weight: bold;
+    margin: 0 10px;
 }
 .Signup{
     color: #10724C;
