@@ -102,6 +102,11 @@ h4{
     height: 30px;
     background-color: #00F482;
 }
+.Hitthe:hover{
+    width: 40%;
+    background-color: darkred;
+    transition: 500ms ease;
+}
 button{
     color: white;
 }
