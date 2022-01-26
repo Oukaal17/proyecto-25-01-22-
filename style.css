@@ -57,6 +57,11 @@ li{
     margin: 0 10px;
 }
 .liDownload:hover{
+    color:red;
+}
+.liLog{
+    color: cornflowerblue;
+    
     font-weight: bold;
     margin: 0 10px;
 }
