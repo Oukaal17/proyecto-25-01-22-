@@ -96,6 +96,12 @@ h4{
     display: flex;
     position: relative;
 }
+.bt1{
+    position: absolute;
+    background-color: transparent;
+    transform: translate(50%, 50%);
+}
+
 .ImgDrum{
     width: 100%;
     cursor: url(Drum.cur),auto;
@@ -147,3 +153,4 @@ h4{
     padding: 10px 30px;
     background-color: #1589FF;
 }
+
