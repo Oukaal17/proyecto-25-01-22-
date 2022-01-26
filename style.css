@@ -52,10 +52,11 @@ li{
 .liHelp{
     
 }
-.liDownload{
-    
+.liDownload:hover{
+    color:red;
 }
 .liLog{
+    color: cornflowerblue;
     
 }
 .Signup{
