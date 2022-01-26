@@ -58,10 +58,6 @@ li{
 }
 .liDownload:hover{
     color:red;
-}
-.liLog{
-    color: cornflowerblue;
-    
     font-weight: bold;
     margin: 0 10px;
 }
@@ -71,6 +67,10 @@ li{
 }
 .Signup{
     color: #10724C;
+}
+.Signup:hover{
+    font-weight: bold;
+    margin: 0 10px;
 }
 section{
     display: grid;
