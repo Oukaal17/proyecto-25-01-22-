@@ -77,7 +77,25 @@ button{
     color: white;
 }
 .Premium{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-top: 20px;
     width: 100%;
-    background-color: #00F482;
-    
+}
+h2{
+    letter-spacing: 1px;
+}
+h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #403d5c;
+}
+.SeeP{
+    color: #000;
+    background-color: #FFFFFF;
+    padding: 8px 15px;
+    border-radius: 42px;
+    border-style: none;
 }
