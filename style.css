@@ -104,6 +104,7 @@ h4{
 }
 .Hitthe:hover{
     width: 40%;
+    height: 20%;
     background-color: darkred;
     transition: 500ms ease;
 }
