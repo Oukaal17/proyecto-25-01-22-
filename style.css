@@ -45,8 +45,8 @@ li{
     position: relative;
     margin: 8px;
 }
-.liPremium{
-
+.liPremium:hover{
+    color:cyan ;
 }
 .liHelp{
     
