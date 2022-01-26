@@ -55,6 +55,7 @@ li{
     color:darkorange;
     font-weight: bold;
     margin: 0 10px;
+    cursor: help;
 }
 .liDownload:hover{
     color:red;
@@ -93,6 +94,7 @@ h4{
 }
 .ImgDrum{
     width: 100%;
+    cursor: url(Drum.cur),auto;
 }
 .Hitthe{
     margin-top: 20px;
@@ -101,6 +103,7 @@ h4{
     border-style: none;
     height: 30px;
     background-color: #00F482;
+    cursor:pointer;
     transition: 900ms cubic-bezier(.68,-0.37,.23,1.43);
 }
 .Hitthe:hover{
@@ -133,4 +136,10 @@ h4{
     padding: 8px 15px;
     border-radius: 42px;
     border-style: none;
+    transition: 900ms cubic-bezier(.68,-0.37,.23,1.43);
+    cursor: pointer;
+}
+.SeeP:hover{
+    padding: 10px 30px;
+    background-color: #1589FF;
 }
