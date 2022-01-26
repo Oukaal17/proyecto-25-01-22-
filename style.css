@@ -92,6 +92,10 @@ h4{
     margin-top: 5rem;
     --background-color: tomato;
 }
+.imgdrumarticle{
+    display: flex;
+    position: relative;
+}
 .ImgDrum{
     width: 100%;
     cursor: url(Drum.cur),auto;
