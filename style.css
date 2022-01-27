@@ -97,7 +97,7 @@ h4{
 }
 .bt1{
     position: absolute;
-    width: 8%;
+    width: 110px;
     background-color: transparent;
     transform: translate(0%, 10%);
 }
