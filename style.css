@@ -100,11 +100,17 @@ h4{
     width: 110px;
     background-color: transparent;
     transform: translate(0%, 10%);
+    cursor: url(Drum.cur),auto;
 }
-
+.bt2{
+    position: absolute;
+    width: 135px;
+    background-color: transparent;
+    transform: translate(98%, 38%);
+    cursor: url(Drum.cur),auto;
+}
 .ImgDrum{
     width: 100%;
-    cursor: url(Drum.cur),auto;
 }
 .Hitthe{
     margin-top: 20px;
