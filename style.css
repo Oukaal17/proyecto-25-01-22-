@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     background-color: #010016 ;
-    overflow-x: hidden;
+    --overflow-x: hidden;
     font-family: Roboto;
 }
 .container{
@@ -107,6 +107,20 @@ h4{
     width: 135px;
     background-color: transparent;
     transform: translate(98%, 38%);
+    cursor: url(Drum.cur),auto;
+}
+.bt3{
+    position: absolute;
+    width: 135px;
+    background-color: transparent;
+    transform: translate(188%, 38%);
+    cursor: url(Drum.cur),auto;
+}
+.bt4{
+    position: absolute;
+    width: 110px;
+    background-color: transparent;
+    transform: translate(370%, 10%);
     cursor: url(Drum.cur),auto;
 }
 .ImgDrum{
