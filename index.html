@@ -30,10 +30,18 @@
         </article>
         <article class="imgdrumarticle">
             <img class="ImgDrum" src="./drumkit.png">
-            <img class="bt1" src="./botones.png">
-            <img class="bt2" src="./botones.png">
-            <img class="bt3" src="./botones.png">
-            <img class="bt4" src="./botones.png">
+            <img onclick="document.getElementById('bombo1').play();" class="bt1" src="./botones.png">
+            <audio id="bombo1" src="./sounds/bombo (1).wav" preload="auto"></audio>
+
+            <img onclick="document.getElementById('crash').play();" class="bt2" src="./botones.png">
+            <audio id="crash" src="./sounds/crash.wav" preload="auto"></audio>
+
+            <img onclick="document.getElementById('hit-hat').play();" class="bt3" src="./botones.png">
+            <audio id="hit-hat" src="./sounds/hit-hat.wav" preload="auto"></audio>
+
+            <img onclick="document.getElementById('redoblante').play();" class="bt4" src="./botones.png">
+            <audio id="redoblante" src="./sounds/redoblante.wav" preload="auto"></audio>
+
         </article>
     </section>
     <div class="Premium">

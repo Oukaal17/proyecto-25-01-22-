@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     background-color: #010016 ;
-    --overflow-x: hidden;
+    overflow-x: hidden;
     font-family: Roboto;
 }
 .container{
@@ -87,6 +87,7 @@ h4{
     font-size: 0.8rem;
 }
 .MusicEvery{
+    width: 53;
     display: flex;
     flex-direction: column;
     margin-top: 5rem;
@@ -94,6 +95,7 @@ h4{
 }
 .imgdrumarticle{
     display: flex;
+    width: 100%;
 }
 .bt1{
     position: absolute;
