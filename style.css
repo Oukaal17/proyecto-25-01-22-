@@ -94,12 +94,12 @@ h4{
 }
 .imgdrumarticle{
     display: flex;
-    position: relative;
 }
 .bt1{
     position: absolute;
+    width: 8%;
     background-color: transparent;
-    transform: translate(50%, 50%);
+    transform: translate(0%, 10%);
 }
 
 .ImgDrum{
