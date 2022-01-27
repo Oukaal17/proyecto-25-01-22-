@@ -203,4 +203,26 @@ h4{
     padding: 10px 30px;
     background-color: #1589FF;
 }
-
+@media only screen and (max-width:414px){
+    *{
+        margin: auto;
+        overflow-x: hidden;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    ul{
+        display: none;
+    }
+    .container{
+        margin: auto;
+        width: 100%;
+        max-width: 424px;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+}
