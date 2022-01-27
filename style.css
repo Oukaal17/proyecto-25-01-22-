@@ -125,6 +125,13 @@ h4{
     transform: translate(370%, 10%);
     cursor: url(Drum.cur),auto;
 }
+.bt5{
+    position: absolute;
+    width: 104px;
+    background-color: transparent;
+    transform: translate(40%, 90%);
+    cursor: url(Drum.cur),auto;
+}
 .ImgDrum{
     width: 100%;
 }
