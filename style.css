@@ -129,7 +129,28 @@ h4{
     position: absolute;
     width: 104px;
     background-color: transparent;
-    transform: translate(40%, 90%);
+    transform: translate(40%, 93%);
+    cursor: url(Drum.cur),auto;
+}
+.bt6{
+    position: absolute;
+    width: 104px;
+    background-color: transparent;
+    transform: translate(360%, 93%);
+    cursor: url(Drum.cur),auto;
+}
+.bt7{
+    position: absolute;
+    width: 135px;
+    background-color: transparent;
+    transform: translate(52%, 135%);
+    cursor: url(Drum.cur),auto;
+}
+.bt8{
+    position: absolute;
+    width: 135px;
+    background-color: transparent;
+    transform: translate(235%, 135%);
     cursor: url(Drum.cur),auto;
 }
 .ImgDrum{
